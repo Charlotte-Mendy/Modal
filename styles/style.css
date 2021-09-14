@@ -1,5 +1,6 @@
 /*& Global */
 /*& ---------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
@@ -103,7 +104,15 @@ button {
   left: 0;
 }
 
-/*& Medai queries
+footer {
+  color: #fff;
+  font-size: 0.8rem;
+  margin: 1rem;
+  position: fixed;
+  bottom: 0;
+}
+
+/*& Media queries
 /*& ---------------------------------------- */
 
 /* Medium devices (tablets, 768px and up) */
