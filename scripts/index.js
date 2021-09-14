@@ -17,6 +17,7 @@ const overlay = document.querySelector('.overlay');
 
 const openModal = function () {
   modal.classList.remove('hidden');
+  overlay.classList.remove('hidden');
 };
 
 // Loop through all open buttons, listen to click event
@@ -30,6 +31,7 @@ for (let i = 0; i < btnsOpenModal.length; i++) {
 
 const closeModal = function () {
   modal.classList.add('hidden');
+  overlay.classList.add('hidden');
 };
 
 // Listen to click event
