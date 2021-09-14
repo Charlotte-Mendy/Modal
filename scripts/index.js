@@ -36,3 +36,13 @@ const closeModal = function () {
 
 // Listen to click event
 btnCloseModal.addEventListener('click', closeModal);
+
+//~ Close the modal by pressing esc key
+// Listen to keydown event on the document
+document.addEventListener('keydown', (e) => {
+  // console.log(e);
+  // Get the value of the key property
+  if (e.key === 'Escape')
+    // console.log('Esc key pressed');
+    closeModal();
+});
